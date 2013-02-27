@@ -98,7 +98,7 @@ fi
 note "Installing dotfiles..."
 for path in .* ; do
     case $path in
-        .|..|.git)
+        .|..|.git|.hg)
             continue
             ;;
         *)
