@@ -37,7 +37,7 @@ fi
 repos=(
 #  https://github.com/Lokaltog/vim-easymotion.git
   https://github.com/Lokaltog/vim-powerline.git
-#  https://github.com/altercation/vim-colors-solarized.git
+  https://github.com/altercation/vim-colors-solarized.git
   https://github.com/ap/vim-css-color.git
   https://github.com/docunext/closetag.vim.git
   https://github.com/hced/bufkill-vim.git
@@ -63,8 +63,8 @@ repos=(
 # Here's a list of everything else to download in the format
 # <destination>;<url>[;<filename>]
 other=(
-#  'zenburn/colors;http://slinky.imukuppi.org/zenburn/zenburn.vim'
-#  'wombat/colors;http://files.werx.dk/wombat.vim'
+  'zenburn/colors;http://slinky.imukuppi.org/zenburn/zenburn.vim'
+  'wombat/colors;http://files.werx.dk/wombat.vim'
 #  'glsl/syntax;http://www.vim.org/scripts/download_script.php?src_id=3194;glsl.vim'
   )
 
