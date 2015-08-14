@@ -1,0 +1,7 @@
+[user]
+	name = Dmitry
+	email = deemonster@gmail.com
+[github]
+	user = tuzzeg
+[push]
+	default = simple
