@@ -1,0 +1,19 @@
+[ui]
+username = Dmitry Semyonov <d@dsemy.cc>
+ssh = ssh -C
+
+[extensions]
+hgext.bookmarks =
+hgext.extdiff =
+mq=
+crecord=$HOME/.hgext/crecord/crecord
+convert=
+
+[extdiff]
+cmd.kdiff=kdiff3
+
+[alias]
+vi  = vimdiff
+vim = vimdiff
+
+shortlog=log --template '{node|short} {date|shortdate} {desc|strip|firstline}\n'
