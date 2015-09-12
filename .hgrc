@@ -6,7 +6,7 @@ ssh = ssh -C
 hgext.bookmarks =
 hgext.extdiff =
 mq=
-crecord=$HOME/.hgext/crecord/crecord
+#crecord=$HOME/.hgext/crecord/crecord
 convert=
 
 [extdiff]
